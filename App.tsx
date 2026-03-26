@@ -7,18 +7,23 @@
  * Prêt pour déploiement Lovable
  */
 
+/**
+ * AF-PHONE — Site officiel v2
+ * Galerie Marchande Intermarché · 100 Rue des Mousquetaires, 30000 Nîmes
+ * Tél : 04 66 21 74 33
+ */
 import './index.css'
-import Navbar           from './components/Navbar'
-import Hero             from './components/Hero'
-import Services         from './components/Services'
-import Repairs          from './components/Repairs'
-import Boutique         from './components/Boutique'
-import Reviews          from './components/Reviews'
-import Game             from './components/Game'
-import AppointmentForm  from './components/AppointmentForm'
-import Contact          from './components/Contact'
-import FloatingCTA      from './components/FloatingCTA'
-import Footer           from './components/Footer'
+import Navbar      from './components/Navbar'
+import Hero        from './components/Hero'
+import Services    from './components/Services'
+import Repairs     from './components/Repairs'
+import Boutique    from './components/Boutique'
+import Reviews     from './components/Reviews'
+import Game        from './components/Game'
+import Contact     from './components/Contact'
+import FloatingCTA from './components/FloatingCTA'
+import Footer      from './components/Footer'
+// AppointmentForm supprimé — plus de prise de RDV en ligne
 
 export default function App() {
   return (
@@ -31,7 +36,6 @@ export default function App() {
         <Boutique />
         <Reviews />
         <Game />
-        <AppointmentForm />
         <Contact />
       </main>
       <Footer />
